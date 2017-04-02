@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F844D61A1E90F72E00F114F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F844D6191E90F72E00F114F3 /* AppDelegate.swift */; };
+		F844D61C1E90F72E00F114F3 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F844D61B1E90F72E00F114F3 /* RootViewController.swift */; };
+		F844D61E1E90F72E00F114F3 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F844D61D1E90F72E00F114F3 /* DataViewController.swift */; };
+		F844D6201E90F72E00F114F3 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F844D61F1E90F72E00F114F3 /* ModelController.swift */; };
+		F844D6231E90F72E00F114F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F844D6211E90F72E00F114F3 /* Main.storyboard */; };
+		F844D6251E90F72E00F114F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F844D6241E90F72E00F114F3 /* Assets.xcassets */; };
+		F844D6281E90F72E00F114F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F844D6261E90F72E00F114F3 /* LaunchScreen.storyboard */; };
+		F844D6331E90F72E00F114F3 /* Timer_sportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F844D6321E90F72E00F114F3 /* Timer_sportTests.swift */; };
+		F844D63E1E90F72E00F114F3 /* Timer_sportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F844D63D1E90F72E00F114F3 /* Timer_sportUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F844D62F1E90F72E00F114F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F844D60E1E90F72D00F114F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F844D6151E90F72D00F114F3;
+			remoteInfo = "Timer-sport";
+		};
+		F844D63A1E90F72E00F114F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F844D60E1E90F72D00F114F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F844D6151E90F72D00F114F3;
+			remoteInfo = "Timer-sport";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F844D6161E90F72E00F114F3 /* Timer-sport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Timer-sport.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F844D6191E90F72E00F114F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F844D61B1E90F72E00F114F3 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		F844D61D1E90F72E00F114F3 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		F844D61F1E90F72E00F114F3 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		F844D6221E90F72E00F114F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F844D6241E90F72E00F114F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F844D6271E90F72E00F114F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F844D6291E90F72E00F114F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F844D62E1E90F72E00F114F3 /* Timer-sportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Timer-sportTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F844D6321E90F72E00F114F3 /* Timer_sportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer_sportTests.swift; sourceTree = "<group>"; };
+		F844D6341E90F72E00F114F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F844D6391E90F72E00F114F3 /* Timer-sportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Timer-sportUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F844D63D1E90F72E00F114F3 /* Timer_sportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer_sportUITests.swift; sourceTree = "<group>"; };
+		F844D63F1E90F72E00F114F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F844D6131E90F72D00F114F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F844D62B1E90F72E00F114F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F844D6361E90F72E00F114F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F844D60D1E90F72D00F114F3 = {
+			isa = PBXGroup;
+			children = (
+				F844D6181E90F72E00F114F3 /* Timer-sport */,
+				F844D6311E90F72E00F114F3 /* Timer-sportTests */,
+				F844D63C1E90F72E00F114F3 /* Timer-sportUITests */,
+				F844D6171E90F72E00F114F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F844D6171E90F72E00F114F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F844D6161E90F72E00F114F3 /* Timer-sport.app */,
+				F844D62E1E90F72E00F114F3 /* Timer-sportTests.xctest */,
+				F844D6391E90F72E00F114F3 /* Timer-sportUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F844D6181E90F72E00F114F3 /* Timer-sport */ = {
+			isa = PBXGroup;
+			children = (
+				F844D6191E90F72E00F114F3 /* AppDelegate.swift */,
+				F844D61B1E90F72E00F114F3 /* RootViewController.swift */,
+				F844D61D1E90F72E00F114F3 /* DataViewController.swift */,
+				F844D61F1E90F72E00F114F3 /* ModelController.swift */,
+				F844D6211E90F72E00F114F3 /* Main.storyboard */,
+				F844D6241E90F72E00F114F3 /* Assets.xcassets */,
+				F844D6261E90F72E00F114F3 /* LaunchScreen.storyboard */,
+				F844D6291E90F72E00F114F3 /* Info.plist */,
+			);
+			path = "Timer-sport";
+			sourceTree = "<group>";
+		};
+		F844D6311E90F72E00F114F3 /* Timer-sportTests */ = {
+			isa = PBXGroup;
+			children = (
+				F844D6321E90F72E00F114F3 /* Timer_sportTests.swift */,
+				F844D6341E90F72E00F114F3 /* Info.plist */,
+			);
+			path = "Timer-sportTests";
+			sourceTree = "<group>";
+		};
+		F844D63C1E90F72E00F114F3 /* Timer-sportUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F844D63D1E90F72E00F114F3 /* Timer_sportUITests.swift */,
+				F844D63F1E90F72E00F114F3 /* Info.plist */,
+			);
+			path = "Timer-sportUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F844D6151E90F72D00F114F3 /* Timer-sport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F844D6421E90F72E00F114F3 /* Build configuration list for PBXNativeTarget "Timer-sport" */;
+			buildPhases = (
+				F844D6121E90F72D00F114F3 /* Sources */,
+				F844D6131E90F72D00F114F3 /* Frameworks */,
+				F844D6141E90F72D00F114F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Timer-sport";
+			productName = "Timer-sport";
+			productReference = F844D6161E90F72E00F114F3 /* Timer-sport.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F844D62D1E90F72E00F114F3 /* Timer-sportTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F844D6451E90F72E00F114F3 /* Build configuration list for PBXNativeTarget "Timer-sportTests" */;
+			buildPhases = (
+				F844D62A1E90F72E00F114F3 /* Sources */,
+				F844D62B1E90F72E00F114F3 /* Frameworks */,
+				F844D62C1E90F72E00F114F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F844D6301E90F72E00F114F3 /* PBXTargetDependency */,
+			);
+			name = "Timer-sportTests";
+			productName = "Timer-sportTests";
+			productReference = F844D62E1E90F72E00F114F3 /* Timer-sportTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F844D6381E90F72E00F114F3 /* Timer-sportUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F844D6481E90F72E00F114F3 /* Build configuration list for PBXNativeTarget "Timer-sportUITests" */;
+			buildPhases = (
+				F844D6351E90F72E00F114F3 /* Sources */,
+				F844D6361E90F72E00F114F3 /* Frameworks */,
+				F844D6371E90F72E00F114F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F844D63B1E90F72E00F114F3 /* PBXTargetDependency */,
+			);
+			name = "Timer-sportUITests";
+			productName = "Timer-sportUITests";
+			productReference = F844D6391E90F72E00F114F3 /* Timer-sportUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F844D60E1E90F72D00F114F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = inglow;
+				TargetAttributes = {
+					F844D6151E90F72D00F114F3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = GLAEEFS3JX;
+						ProvisioningStyle = Automatic;
+					};
+					F844D62D1E90F72E00F114F3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = GLAEEFS3JX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F844D6151E90F72D00F114F3;
+					};
+					F844D6381E90F72E00F114F3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = GLAEEFS3JX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F844D6151E90F72D00F114F3;
+					};
+				};
+			};
+			buildConfigurationList = F844D6111E90F72D00F114F3 /* Build configuration list for PBXProject "Timer-sport" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F844D60D1E90F72D00F114F3;
+			productRefGroup = F844D6171E90F72E00F114F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F844D6151E90F72D00F114F3 /* Timer-sport */,
+				F844D62D1E90F72E00F114F3 /* Timer-sportTests */,
+				F844D6381E90F72E00F114F3 /* Timer-sportUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F844D6141E90F72D00F114F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F844D6281E90F72E00F114F3 /* LaunchScreen.storyboard in Resources */,
+				F844D6251E90F72E00F114F3 /* Assets.xcassets in Resources */,
+				F844D6231E90F72E00F114F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F844D62C1E90F72E00F114F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F844D6371E90F72E00F114F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F844D6121E90F72D00F114F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F844D61C1E90F72E00F114F3 /* RootViewController.swift in Sources */,
+				F844D6201E90F72E00F114F3 /* ModelController.swift in Sources */,
+				F844D61E1E90F72E00F114F3 /* DataViewController.swift in Sources */,
+				F844D61A1E90F72E00F114F3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F844D62A1E90F72E00F114F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F844D6331E90F72E00F114F3 /* Timer_sportTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F844D6351E90F72E00F114F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F844D63E1E90F72E00F114F3 /* Timer_sportUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F844D6301E90F72E00F114F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F844D6151E90F72D00F114F3 /* Timer-sport */;
+			targetProxy = F844D62F1E90F72E00F114F3 /* PBXContainerItemProxy */;
+		};
+		F844D63B1E90F72E00F114F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F844D6151E90F72D00F114F3 /* Timer-sport */;
+			targetProxy = F844D63A1E90F72E00F114F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F844D6211E90F72E00F114F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F844D6221E90F72E00F114F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F844D6261E90F72E00F114F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F844D6271E90F72E00F114F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F844D6401E90F72E00F114F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F844D6411E90F72E00F114F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F844D6431E90F72E00F114F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GLAEEFS3JX;
+				INFOPLIST_FILE = "Timer-sport/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jayjay-dev.Timer-sport";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F844D6441E90F72E00F114F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GLAEEFS3JX;
+				INFOPLIST_FILE = "Timer-sport/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jayjay-dev.Timer-sport";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F844D6461E90F72E00F114F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GLAEEFS3JX;
+				INFOPLIST_FILE = "Timer-sportTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jayjay-dev.Timer-sportTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timer-sport.app/Timer-sport";
+			};
+			name = Debug;
+		};
+		F844D6471E90F72E00F114F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GLAEEFS3JX;
+				INFOPLIST_FILE = "Timer-sportTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jayjay-dev.Timer-sportTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timer-sport.app/Timer-sport";
+			};
+			name = Release;
+		};
+		F844D6491E90F72E00F114F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = GLAEEFS3JX;
+				INFOPLIST_FILE = "Timer-sportUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jayjay-dev.Timer-sportUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Timer-sport";
+			};
+			name = Debug;
+		};
+		F844D64A1E90F72E00F114F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = GLAEEFS3JX;
+				INFOPLIST_FILE = "Timer-sportUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jayjay-dev.Timer-sportUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Timer-sport";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F844D6111E90F72D00F114F3 /* Build configuration list for PBXProject "Timer-sport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F844D6401E90F72E00F114F3 /* Debug */,
+				F844D6411E90F72E00F114F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F844D6421E90F72E00F114F3 /* Build configuration list for PBXNativeTarget "Timer-sport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F844D6431E90F72E00F114F3 /* Debug */,
+				F844D6441E90F72E00F114F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F844D6451E90F72E00F114F3 /* Build configuration list for PBXNativeTarget "Timer-sportTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F844D6461E90F72E00F114F3 /* Debug */,
+				F844D6471E90F72E00F114F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F844D6481E90F72E00F114F3 /* Build configuration list for PBXNativeTarget "Timer-sportUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F844D6491E90F72E00F114F3 /* Debug */,
+				F844D64A1E90F72E00F114F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F844D60E1E90F72D00F114F3 /* Project object */;
+}
